@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Casa Renovável · Parque Energia Viva</title>
+  <meta name="description" content="Acompanhe a construção do Parque Energia Viva, veja a energia gerada e participe das capacitações e oportunidades da sua comunidade.">
+  <meta name="theme-color" content="#2f9e6e">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+  <!-- ============ CABEÇALHO ============ -->
+  <header class="topbar" id="topbar">
+    <div class="wrap topbar__in">
+      <a href="#inicio" class="brand" aria-label="Casa Renovável, início">
+        <img src="assets/logo.png" alt="Casa Renovável" width="677" height="399">
+      </a>
+      <nav class="nav" id="nav" aria-label="Principal">
+        <a href="#obra">Obra</a>
+        <a href="#energia">Energia</a>
+        <a href="#capacitacoes">Capacitações</a>
+        <a href="#vagas">Vagas</a>
+        <a href="#comunidade">Comunidade</a>
+        <a href="#capacitacoes" class="btn btn--sm nav__cta">Inscrever-se</a>
+      </nav>
+      <button class="burger" id="burger" aria-expanded="false" aria-controls="nav" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ============ INÍCIO ============ -->
+    <section class="hero" id="inicio">
+      <div class="wrap hero__in">
+        <div class="hero__text">
+          <p class="status-pill"><span class="dot"></span> Parque Energia Viva em construção</p>
+          <h1>Você acompanha a obra, vê a energia nascer e participa do que vem depois.</h1>
+          <p class="lead">A Casa dos Ventos está construindo um parque eólico e solar na sua região. Aqui você vê o andamento das obras, os números reais de geração, as vagas abertas e dá a sua opinião.</p>
+          <div class="hero__cta">
+            <a class="btn" href="#obra">Ver andamento da obra</a>
+            <a class="btn btn--ghost" href="#capacitacoes">Fazer um curso gratuito</a>
+          </div>
+        </div>
+
+        <div class="hero__card card" aria-label="Resumo do parque">
+          <div class="hero__scene" aria-hidden="true">
+            <svg viewBox="0 0 420 240" preserveAspectRatio="xMidYMid slice">
+              <defs>
+                <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#dff1f7"/><stop offset="1" stop-color="#f4faf6"/>
+                </linearGradient>
+              </defs>
+              <rect width="420" height="240" fill="url(#sky)"/>
+              <g class="sun"><circle cx="338" cy="58" r="22" fill="#f6a93b"/>
+                <g stroke="#f6a93b" stroke-width="4" stroke-linecap="round">
+                  <path d="M338 20v8M338 88v8M300 58h8M368 58h8M311 31l6 6M359 79l6 6M365 31l-6 6M317 79l-6 6"/>
+                </g></g>
+              <path d="M0 190 Q90 165 180 182 T420 170 V240 H0Z" fill="#cfe8d8"/>
+              <path d="M0 208 Q120 188 230 204 T420 196 V240 H0Z" fill="#a9d6bb"/>
+              <!-- turbinas -->
+              <g fill="#fff" stroke="#c9d4dc" stroke-width="1">
+                <g transform="translate(90 190)"><path d="M-2 0 L-1 -108 L1 -108 L2 0Z"/>
+                  <g class="rotor" style="transform-origin:0 -108px"><circle cx="0" cy="-108" r="4"/>
+                    <path d="M0 -108 L-3 -154 L3 -154Z"/><path d="M0 -108 L40 -86 L38 -82Z"/><path d="M0 -108 L-40 -86 L-38 -82Z"/></g></g>
+                <g transform="translate(170 196) scale(.8)"><path d="M-2 0 L-1 -108 L1 -108 L2 0Z"/>
+                  <g class="rotor rotor--b" style="transform-origin:0 -108px"><circle cx="0" cy="-108" r="4"/>
+                    <path d="M0 -108 L-3 -154 L3 -154Z"/><path d="M0 -108 L40 -86 L38 -82Z"/><path d="M0 -108 L-40 -86 L-38 -82Z"/></g></g>
+                <g transform="translate(236 200) scale(.62)"><path d="M-2 0 L-1 -108 L1 -108 L2 0Z"/>
+                  <g class="rotor rotor--c" style="transform-origin:0 -108px"><circle cx="0" cy="-108" r="4"/>
+                    <path d="M0 -108 L-3 -154 L3 -154Z"/><path d="M0 -108 L40 -86 L38 -82Z"/><path d="M0 -108 L-40 -86 L-38 -82Z"/></g></g>
+              </g>
+              <!-- painéis solares -->
+              <g fill="#2f6f8f" stroke="#fff" stroke-width="1.5">
+                <path d="M290 206 l46 -14 l18 0 l-46 14z"/><path d="M304 214 l46 -14 l18 0 l-46 14z"/>
+                <path d="M318 222 l46 -14 l18 0 l-46 14z"/><path d="M332 230 l46 -14 l18 0 l-46 14z"/>
+              </g>
+            </svg>
+          </div>
+          <div class="hero__card-body">
+            <div class="progress-row">
+              <span>Obra concluída</span><strong id="heroPct">0%</strong>
+            </div>
+            <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="68" aria-label="Progresso da obra">
+              <i id="heroBar" style="width:0%"></i>
+            </div>
+            <p class="muted small">Status: etapa de montagem das torres e instalação dos painéis. Atualizado em 03 nov 2026.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NÚMEROS RÁPIDOS ============ -->
+    <section class="quick" aria-label="Números do parque">
+      <div class="wrap quick__grid">
+        <div class="quick__item"><strong data-count="2336" data-suffix=" MWh">0</strong><span>energia gerada em 2026</span></div>
+        <div class="quick__item"><strong data-count="1180" data-suffix=" t">0</strong><span>de CO₂ evitado</span></div>
+        <div class="quick__item"><strong data-count="412">0</strong><span>pessoas inscritas em cursos</span></div>
+        <div class="quick__item"><strong data-count="187">0</strong><span>vagas de emprego na obra</span></div>
+      </div>
+    </section>
+
+    <!-- ============ 1. ACOMPANHAMENTO DA OBRA ============ -->
+    <section class="section" id="obra">
+      <div class="wrap">
+        <header class="section__head">
+          <h2>Como está a obra</h2>
+          <p>Cada etapa fica registrada aqui, com data e situação. Se algo muda, você fica sabendo.</p>
+        </header>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Etapas da construção</h3>
+            <ol class="timeline" id="timeline"></ol>
+          </div>
+
+          <div class="stack">
+            <div class="card">
+              <h3>Investimentos na região</h3>
+              <ul class="invest" id="investList"></ul>
+            </div>
+            <div class="card">
+              <h3>Notícias e comunicados</h3>
+              <ul class="news" id="newsList"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 2. ENERGIA ============ -->
+    <section class="section section--tint" id="energia">
+      <div class="wrap">
+        <header class="section__head">
+          <h2>Dados do Parque Energia Viva</h2>
+          <p>Números mensais de geração e do impacto ambiental. Os valores desta página são fictícios, criados para a apresentação do projeto.</p>
+        </header>
+
+        <div class="tabs" role="tablist" aria-label="Dados do parque">
+          <button role="tab" aria-selected="true" aria-controls="tab-geracao" id="t-geracao" class="tab is-active">Geração mensal</button>
+          <button role="tab" aria-selected="false" aria-controls="tab-co2" id="t-co2" class="tab" tabindex="-1">CO₂ evitado</button>
+          <button role="tab" aria-selected="false" aria-controls="tab-hist" id="t-hist" class="tab" tabindex="-1">Histórico do parque</button>
+        </div>
+
+        <div class="energy">
+          <div class="energy__main card">
+            <div class="panel is-active" id="tab-geracao" role="tabpanel" aria-labelledby="t-geracao">
+              <div class="panel__head">
+                <h3>Geração mensal (MWh)</h3>
+                <div class="legend"><span><i class="sw sw--wind"></i>Eólica</span><span><i class="sw sw--sun"></i>Solar</span></div>
+              </div>
+              <div class="chart"><canvas id="chartGeracao" aria-label="Gráfico de linhas com a geração mensal eólica e solar" role="img"></canvas></div>
+            </div>
+
+            <div class="panel" id="tab-co2" role="tabpanel" aria-labelledby="t-co2" hidden>
+              <div class="panel__head">
+                <h3>CO₂ evitado por mês (toneladas)</h3>
+              </div>
+              <div class="chart"><canvas id="chartCO2" aria-label="Gráfico de barras com o CO₂ evitado por mês" role="img"></canvas></div>
+            </div>
+
+            <div class="panel" id="tab-hist" role="tabpanel" aria-labelledby="t-hist" hidden>
+              <div class="panel__head"><h3>Funcionamento do parque</h3></div>
+              <div class="table-wrap">
+                <table class="table">
+                  <thead><tr><th>Mês</th><th>Energia total</th><th>Disponibilidade</th><th>Ocorrências</th></tr></thead>
+                  <tbody id="histBody"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <aside class="energy__side">
+            <div class="card gauge">
+              <h3>Disponibilidade do parque</h3>
+              <div class="gauge__ring" id="gauge" style="--v:0">
+                <span id="gaugeVal">0%</span>
+              </div>
+              <p class="muted small">Percentual do tempo em que as turbinas e os painéis ficaram prontos para gerar.</p>
+            </div>
+            <div class="card kpis">
+              <h3>Sustentabilidade</h3>
+              <dl>
+                <div><dt>CO₂ evitado (acumulado)</dt><dd id="kCO2">—</dd></div>
+                <div><dt>Energia renovável gerada</dt><dd id="kMWh">—</dd></div>
+                <div><dt>Casas abastecidas (equivalente)</dt><dd id="kHomes">—</dd></div>
+                <div><dt>Árvores plantadas (equivalente)</dt><dd id="kTrees">—</dd></div>
+              </dl>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3. CAPACITAÇÕES ============ -->
+    <section class="section" id="capacitacoes">
+      <div class="wrap">
+        <header class="section__head">
+          <h2>Cursos gratuitos para a comunidade</h2>
+          <p>Escolha um curso, veja os pré-requisitos e faça a inscrição em poucos cliques.</p>
+        </header>
+
+        <div class="courses-layout">
+          <aside class="filters card" aria-label="Filtros de cursos">
+            <h3>Filtros</h3>
+            <fieldset>
+              <legend>Tipo</legend>
+              <label class="check"><input type="checkbox" name="tipo" value="basica" checked><span>Capacitação básica</span></label>
+              <label class="check"><input type="checkbox" name="tipo" value="tecnica" checked><span>Capacitação técnica</span></label>
+            </fieldset>
+            <fieldset>
+              <legend>Área</legend>
+              <label class="check"><input type="checkbox" name="area" value="eolica" checked><span>Eólica</span></label>
+              <label class="check"><input type="checkbox" name="area" value="solar" checked><span>Solar</span></label>
+              <label class="check"><input type="checkbox" name="area" value="geral" checked><span>Inclusão e trabalho</span></label>
+            </fieldset>
+            <fieldset>
+              <legend>Local</legend>
+              <label class="check"><input type="checkbox" name="local" value="presencial" checked><span>Presencial</span></label>
+              <label class="check"><input type="checkbox" name="local" value="online" checked><span>Online</span></label>
+            </fieldset>
+          </aside>
+
+          <div class="courses" id="courses" aria-live="polite"></div>
+        </div>
+
+        <!-- Acompanhamento -->
+        <div class="card my-enroll" id="minhas">
+          <div class="my-enroll__head">
+            <div>
+              <h3>Minhas inscrições e certificados</h3>
+              <p class="muted small">Consulte turmas, situação da inscrição e baixe o certificado quando o curso terminar.</p>
+            </div>
+          </div>
+          <ul class="enroll-list" id="enrollList"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4. VAGAS ============ -->
+    <section class="section section--tint" id="vagas">
+      <div class="wrap">
+        <header class="section__head">
+          <h2>Vagas e oportunidades</h2>
+          <p>Empregos, estágios e oportunidades em empresas parceiras que atuam no parque e na região.</p>
+        </header>
+        <div class="jobs-bar">
+          <div class="chips" id="jobChips" role="group" aria-label="Filtrar vagas">
+            <button class="chip is-active" data-job="todas">Todas</button>
+            <button class="chip" data-job="emprego">Emprego</button>
+            <button class="chip" data-job="estagio">Estágio</button>
+            <button class="chip" data-job="parceira">Empresas parceiras</button>
+          </div>
+        </div>
+        <div class="jobs" id="jobs"></div>
+      </div>
+    </section>
+
+    <!-- ============ 5. COMUNIDADE ============ -->
+    <section class="section" id="comunidade">
+      <div class="wrap">
+        <header class="section__head">
+          <h2>O que a comunidade está dizendo</h2>
+          <p>Comente, tire dúvidas, mande sugestões e dê uma nota para o projeto e para as ações da empresa.</p>
+        </header>
+
+        <div class="grid-2 grid-2--comm">
+          <div class="card rate">
+            <h3>Avalie o projeto</h3>
+            <div class="rate__score">
+              <strong id="avgScore">0,0</strong>
+              <div>
+                <div class="stars stars--static" id="avgStars" aria-hidden="true"></div>
+                <p class="muted small"><span id="rateCount">0</span> avaliações</p>
+              </div>
+            </div>
+            <ul class="rate__bars" id="rateBars"></ul>
+
+            <form id="rateForm" class="rate__form">
+              <p class="label">Sua nota para…</p>
+              <div class="rate__pick">
+                <label for="rateTopic" class="sr">Tema da avaliação</label>
+                <select id="rateTopic">
+                  <option value="projeto">O projeto como um todo</option>
+                  <option value="cursos">Os cursos e capacitações</option>
+                  <option value="comunicacao">A comunicação com a comunidade</option>
+                  <option value="vagas">As oportunidades de trabalho</option>
+                </select>
+              </div>
+              <div class="stars" id="starPicker" role="radiogroup" aria-label="Nota de 1 a 5"></div>
+              <button class="btn btn--sm" type="submit">Enviar avaliação</button>
+              <p class="form-msg" id="rateMsg" role="status"></p>
+            </form>
+          </div>
+
+          <div class="card comments">
+            <div class="comments__head">
+              <h3>Comentários (<span id="cCount">0</span>)</h3>
+              <span class="mode" id="modeBadge" title="Onde os dados estão sendo salvos"></span>
+            </div>
+
+            <form id="commentForm" class="comment-form">
+              <label class="sr" for="cName">Seu nome</label>
+              <input id="cName" type="text" placeholder="Seu nome" maxlength="40" required autocomplete="name">
+              <label class="sr" for="cType">Tipo de mensagem</label>
+              <select id="cType" aria-label="Tipo de mensagem">
+                <option value="opiniao">Opinião</option>
+                <option value="duvida">Dúvida</option>
+                <option value="sugestao">Sugestão</option>
+              </select>
+              <label class="sr" for="cText">Comentário</label>
+              <textarea id="cText" rows="3" placeholder="Comente sobre o projeto…" maxlength="400" required></textarea>
+              <div class="comment-form__foot">
+                <span class="muted small"><span id="cLeft">400</span> caracteres restantes</span>
+                <button class="btn btn--sm" type="submit">Publicar comentário</button>
+              </div>
+            </form>
+
+            <ul class="comment-list" id="commentList"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TRANSPARÊNCIA ============ -->
+    <section class="section section--close">
+      <div class="wrap close">
+        <h2>Um parque que muda a região para além da energia.</h2>
+        <p>Os dados desta plataforma também ajudam a Casa dos Ventos a medir o resultado ambiental e social do projeto, para tomar decisões melhores junto com a comunidade.</p>
+        <a class="btn btn--light" href="#comunidade">Deixe seu comentário</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__in">
+      <img src="assets/logo.png" alt="Casa Renovável" width="677" height="399">
+      <p class="small">Plataforma de transparência do Parque Energia Viva. Projeto de apresentação, com dados fictícios.</p>
+    </div>
+  </footer>
+
+  <!-- Mobile: barra inferior inspirada no app -->
+  <nav class="tabbar" aria-label="Atalhos">
+    <a href="#inicio" data-t="inicio"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>Início</a>
+    <a href="#obra" data-t="obra"><svg viewBox="0 0 24 24"><path d="M4 20V8l4-3 4 3v12M12 20V4l4 2 4 3v11M2 20h20"/></svg>Obra</a>
+    <a href="#energia" data-t="energia"><svg viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg>Energia</a>
+    <a href="#capacitacoes" data-t="capacitacoes"><svg viewBox="0 0 24 24"><path d="M3 5l9-3 9 3v6c0 5-4 9-9 11-5-2-9-6-9-11z"/></svg>Cursos</a>
+    <a href="#comunidade" data-t="comunidade"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg>Opiniões</a>
+  </nav>
+
+  <!-- Modal de inscrição -->
+  <div class="modal" id="modal" hidden>
+    <div class="modal__box" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+      <button class="modal__x" id="mClose" aria-label="Fechar">×</button>
+      <h3 id="mTitle">Inscrição</h3>
+      <p class="muted" id="mSub"></p>
+      <form id="enrollForm">
+        <label for="eName">Nome completo</label>
+        <input id="eName" type="text" required maxlength="60" autocomplete="name">
+        <label for="eContact">E-mail ou WhatsApp</label>
+        <input id="eContact" type="text" required maxlength="60" autocomplete="email">
+        <label for="eTown">Comunidade onde mora</label>
+        <input id="eTown" type="text" required maxlength="50">
+        <button class="btn" type="submit">Confirmar inscrição</button>
+        <p class="form-msg" id="eMsg" role="status"></p>
+      </form>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
